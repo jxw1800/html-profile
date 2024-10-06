@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+}
+body{
+  font-family: "Inconsolata", monospace;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 1.5;
+  background: #970101;
+}
+h1, h2, h3, h4{
+    font-family: "Noto Serif", serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+ h2, h3, h4{
+    text-decoration: underline;
+}
+
+.main p{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1rem;
+}
+h1{
+    font-size: 3.5rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+h1, h2, h3, h4 p{
+    align-content: center;
+}
+a{
+    color: black;
+}
+a:hover{
+    color: crimson;
+    text-decoration: none;
+}
+nav{
+    text-align: center;
+    font-family: "Noto Serif", serif;
+    font-weight: normal;
+    font-style: normal;
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+    padding: 10px;
+}
+.gallery img{
+    width: 32%;
+    height: 500px;
+    padding-left: 3rem;
+    padding-right: 2rem;
+    object-fit: cover;
+    object-fit: cover;
+    object-position: bottom;
+    display: inline-block;
+    border: solid 1px #f9f4f1;
+}
+
+.wrapper{
+    width: 90%;
+    background-color: rgb(240, 240, 240);
+    margin: 0 auto;
+    padding: 4rem;
+    box-shadow: 3px -5px 9px #000000;
+}
